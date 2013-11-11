@@ -12,9 +12,7 @@ I'm using the programming cable I bought with the radio.
 
 `sudo apt-get install owx` #for the underlying software on Ubuntu-based systems. 
 
-`lsusb|grep "PL2303"` # to find what name the serial port was assigned to on your PC.
-
-#example output: Bus 004 Device 002: ID 067b:2303 Prolific Technology, Inc. PL2303 Serial Port
+`lsusb|grep "PL2303"` # to find what name the serial port was assigned to on your PC. Example output: `Bus 004 Device 002: ID 067b:2303 Prolific Technology, Inc. PL2303 Serial Port`
 
 Presented in the hopes that it will be useful, but without any warranty. GNU GPLv3 
 
