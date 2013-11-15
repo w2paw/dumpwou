@@ -56,7 +56,7 @@ chkexit () {
 ##########
 # MAIN
 ##########
-#Example:
+#Example of usage were we to use owx manually
 #
 #	owx-get -o file.bin 			#dump file
 #	cp file.bin backup.bin 			#make a copy
@@ -101,7 +101,7 @@ chkexit () {
 	echo "debug: about to u/l file" 
 	owx-put -p "$PORT" -i "${file1}"			# upload bin
 	chkexit 
-	# 				# note, we don't use a refrence file
+	# 				# note, we don't use a reference file
 	#				# slower, but works every time
 	# done
 
